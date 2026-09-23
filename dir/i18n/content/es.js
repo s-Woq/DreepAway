@@ -52,12 +52,12 @@ export const es = {
   },
 
   cost: {
-    eyebrow: 'Comparación ilustrativa de costos',
+    eyebrow: 'Comparación salarial de desarrolladores de software · 2025',
     h2: ['Menor costo.', 'No menores estándares.'],
-    usLabel: 'Costo de staffing en EE. UU.',
-    intlLabel: 'Rango internacional ilustrativo',
-    diffLabel: 'Diferencia potencial en costos de staffing',
-    note: '*El ahorro real varía según el rol, la seniority, la compensación, los beneficios, el modelo de contratación y otros costos operativos. Las cifras mostradas son solo ilustrativas.',
+    usLabel: 'Salario bruto anual promedio en EE. UU.',
+    intlLabel: 'Salario bruto anual promedio en Perú',
+    diffLabel: 'Salario promedio más bajo en Perú',
+    note: 'Promedios salariales de desarrolladores de software en 2025. Es solo una comparación salarial; el costo total del empleador es distinto. La compensación varía según el puesto, la experiencia y la seniority.',
     cta: 'Calcula tus ahorros',
   },
 
