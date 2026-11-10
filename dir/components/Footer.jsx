@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           <div className="md:col-span-5">
             <Link to={p('home')} className="flex items-center gap-2 tracking-[0.25em] text-sm font-semibold mb-6">
-              <span className="w-2 h-2 bg-crimson rounded-full" /> VETTA
+              <span className="w-2 h-2 bg-crimson rounded-full" /> DreepAway
             </Link>
             <p className="font-display font-bold tracking-[-0.03em] text-3xl md:text-4xl leading-[1.05] max-w-md">
               {f.tagline[0]}<br />{f.tagline[1]}
@@ -37,14 +37,14 @@ export default function Footer() {
             </p>
             <p className="text-[11px] tracking-[0.3em] uppercase text-bone/40 mt-6 mb-3">{f.connectLabel}</p>
             <div className="flex gap-5 text-sm text-bone/70">
-              <a href="mailto:hello@vetta.co" className="hover:text-crimson transition-colors">Email</a>
+              <a href="mailto:hello@dreepaway.co" className="hover:text-crimson transition-colors">Email</a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-crimson transition-colors">LinkedIn</a>
             </div>
           </div>
         </div>
 
         <div className="mt-16 pt-8 border-t border-bone/10 flex flex-col md:flex-row justify-between gap-6 text-xs text-bone/40">
-          <p>© {new Date().getFullYear()} Vetta. {f.rights}</p>
+          <p>© {new Date().getFullYear()} DreepAway. {f.rights}</p>
           <div className="flex flex-wrap items-center gap-6">
             <Link to="/privacy/" className="hover:text-bone transition-colors">{f.privacy}</Link>
             <Link to="/terms/" className="hover:text-bone transition-colors">{f.terms}</Link>
